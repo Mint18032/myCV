@@ -1,7 +1,3 @@
-a {
-  color: white;
-}
-
 body {
   font-family: verdana;
   text-align: justify;
@@ -30,6 +26,7 @@ img {
 
 .left {
   width: 21%;
+  height: 1110px;
   float: left;
   padding: 1em;
   overflow-wrap: anywhere;
