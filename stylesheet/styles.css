@@ -40,6 +40,7 @@ h1 {
 h2 {
   color: #660033;
   font-size: 135%;
+  padding-top: 20px;
 }
 
 img {
@@ -49,19 +50,21 @@ img {
 
 .row:after {
   content: "";
-  display: table;
   clear: both;
+  height: 100%;
 }
 
 .left {
   width: 21%;
-  height: 1150px;
   float: left;
-  padding: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 1em;
+  padding-bottom: 12vh;
   overflow-wrap: anywhere;
   background-color: #660033;
   color: rgba(255, 255, 255, 0.938);
-  font-size: 80%;
+  font-size: 90%;
   font-weight: 80%;
 }
 
@@ -71,6 +74,8 @@ img {
   background-color: white;
   overflow-wrap: anywhere;
   float: right;
+  font-size: 100%;
+  font-weight: 80%;
 }
 
 .flip-box {
@@ -117,3 +122,21 @@ img {
   transform: rotateY(180deg);
 }
 
+.project-name {
+  color: black;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.project-details a {
+  color: black;
+  text-decoration: none;
+}
+
+.project-details a:hover{
+  color: blue;
+}
+
+.project-details a:focus{
+  color: blue;
+}
