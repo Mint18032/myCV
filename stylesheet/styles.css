@@ -34,13 +34,17 @@ body {
 h1 {
   font-size: 400%;
   color: #0d0d0d;
-  text-align: left;
+  text-align: center;
 }
 
 h2 {
+  position: relative;
+  width: 100%;
   color: #660033;
   font-size: 135%;
   padding-top: 20px;
+  padding-bottom: 5px;
+  border-bottom: dashed #660033 3px;
 }
 
 img {
@@ -55,12 +59,11 @@ img {
 }
 
 .left {
-  width: 21%;
+  width: 25%;
   float: left;
-  padding-left: 1em;
-  padding-right: 1em;
-  padding-top: 1em;
-  padding-bottom: 12vh;
+  text-align: left;
+  padding: 1.5%;
+  padding-bottom: 25vh;
   overflow-wrap: anywhere;
   background-color: #660033;
   color: rgba(255, 255, 255, 0.938);
@@ -69,10 +72,10 @@ img {
 }
 
 .right {
-  width: 73%;
+  width: 67%;
   padding-right: 2%;
+  padding-left: 2%;
   background-color: white;
-  overflow-wrap: anywhere;
   float: right;
   font-size: 100%;
   font-weight: 80%;
@@ -120,6 +123,19 @@ img {
 
 .flip-box-back {
   transform: rotateY(180deg);
+}
+
+.contact {
+  width: fit-content;
+  height: max-content;
+}
+
+.info-right {
+  float: right;
+}
+
+.info-left {
+  float: left;
 }
 
 .project-name {
