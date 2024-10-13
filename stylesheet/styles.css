@@ -63,7 +63,7 @@ img {
   float: left;
   text-align: left;
   padding: 1.5%;
-  padding-bottom: 25vh;
+  padding-bottom: 60vh;
   overflow-wrap: anywhere;
   background-color: #660033;
   color: rgba(255, 255, 255, 0.938);
@@ -155,4 +155,9 @@ img {
 
 .project-details a:focus{
   color: blue;
+}
+
+.university {
+  color: #0d0d0d;
+  text-decoration: none;
 }
