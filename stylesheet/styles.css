@@ -52,6 +52,11 @@ img {
   height: 100%;
 }
 
+.row {
+  display: flex;
+  align-items: stretch; /* Đảm bảo hai cột cao bằng nhau */
+}
+
 .row:after {
   content: "";
   clear: both;
@@ -59,22 +64,20 @@ img {
 }
 
 .left {
-  width: 25%;
+  width: 20%;
   float: left;
   text-align: left;
   padding: 1.5%;
-  padding-bottom: 60vh;
   overflow-wrap: anywhere;
   background-color: #660033;
   color: rgba(255, 255, 255, 0.938);
   font-size: 90%;
-  font-weight: 80%;
+  font-weight: 400;
 }
 
 .right {
-  width: 67%;
-  padding-right: 2%;
-  padding-left: 2%;
+  width: 80%;
+  padding: 0% 2%;
   background-color: white;
   float: right;
   font-size: 100%;
